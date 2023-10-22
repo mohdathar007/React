@@ -52,7 +52,7 @@ function App() {
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-indigo-500 to-blue-500 " 
     >
 
-    <div className={`w-full max-w-4xl mx-auto shadow-2xl rounded-lg px-4 py-3 ${getBackgroundColor()} text-white 	`}
+    <div className={` border-white-60 w-full max-w-4xl mx-auto shadow-2xl rounded-lg px-4 py-3 ${getBackgroundColor()} text-white 	`}
 
     >
       <h1 className='text-white text-center my-12 text-5xl font-bold '>Password Generator</h1>
